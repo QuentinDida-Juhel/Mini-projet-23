@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="bddpersonnels" EntityNamespace="BddpersonnelContext" ContextNamespace="BddpersonnelContext" Class="BddpersonnelDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="3cf01b63-7d55-491a-a702-420fc096c1ef" Provider="Devart.Data.MySql.Linq.Provider.MySqlDataProvider, Devart.Data.MySql.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="User Id=userBDDR;Password=Password1234@il;Host=172.16.32.235;Database=bddpersonnels;Persist Security Info=True" Provider="Devart.Data.MySql" />
+  <Table Name="bddpersonnels.fonctions" Member="Fonctions">
+    <Type Name="Fonction" ed:Guid="5e1d6a92-e0e4-4250-9cb9-74e9ec7ce369">
+      <Column Name="id" Member="Id" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="b8f01b4c-bfb1-4073-8e54-1a382600e157" />
+      <Column Name="intitule" Member="Intitule" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="6341ed54-b6b9-46e2-8315-c2b78f96db49" />
+      <Association Name="Fonction_Personnel" ed:AssociationGuid="e21ae008-212d-4cee-af30-974bd300b738" Member="Personnels" ed:Guid="004dd0d8-516d-451f-a419-aeb3115fc0c0" ThisKey="Id" OtherKey="IdFonction" Type="Personnel" />
+    </Type>
+  </Table>
+  <Table Name="bddpersonnels.personnels" Member="Personnels">
+    <Type Name="Personnel" ed:Guid="d9e239c0-d540-489d-a5db-a948d174ea2a">
+      <Column Name="id" Member="Id" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="fa1e3d5b-aa78-4f65-952b-7efcc39b0fc3" />
+      <Column Name="prenom" Member="Prenom" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="2e2a5e97-7de2-4b22-b06c-7e2e48d8eb32" />
+      <Column Name="nom" Member="Nom" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="c2f27323-39cf-4df6-8ede-07739743fd66" />
+      <Column Name="idService" Member="IdService" Type="System.Int32" DbType="INT(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" Precision="11" ed:ValidateRequired="true" ed:Guid="9c48189d-07aa-4cf4-a579-e3f73a38a153" />
+      <Column Name="idFonction" Member="IdFonction" Type="System.Int32" DbType="INT(11) NOT NULL" CanBeNull="false" UpdateCheck="Never" Precision="11" ed:ValidateRequired="true" ed:Guid="ea661c2b-494a-43dd-b1a3-6b0e61c33194" />
+      <Column Name="telephone" Member="Telephone" Type="System.String" DbType="TEXT NULL" CanBeNull="true" UpdateCheck="Never" ed:ValidateRequired="false" ed:Guid="0dbde5d7-0f1d-485a-8b94-5036069dd581" />
+      <Column Name="photo" Member="Photo" Type="System.Byte[]" DbType="BLOB NULL" CanBeNull="true" UpdateCheck="Never" ed:ValidateRequired="false" ed:Guid="828f1fbd-ee71-4dbb-b871-428d3bd9dbde" />
+      <Association Name="Fonction_Personnel" ed:AssociationGuid="e21ae008-212d-4cee-af30-974bd300b738" Member="Fonction" ed:Guid="923793e4-7014-4d42-b5ac-f83ff48f1a7d" ThisKey="IdFonction" OtherKey="Id" Type="Fonction" DeleteRule="RESTRICT" IsForeignKey="true" />
+      <Association Name="Service_Personnel" ed:AssociationGuid="6c2e95c6-af45-4855-b119-68afe19dcf91" Member="Service" ed:Guid="4aff2867-e0f1-4eae-8ab3-2c06b8bf3239" ThisKey="IdService" OtherKey="Id" Type="Service" DeleteRule="RESTRICT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="bddpersonnels.services" Member="Services">
+    <Type Name="Service" ed:Guid="f690547d-e4ec-438e-b948-c44985a8c831">
+      <Column Name="id" Member="Id" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="20756383-6110-4a8d-9d36-f5f78949c351" />
+      <Column Name="intitule" Member="Intitule" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="4da968f6-f162-40bc-9c5b-19dcfe82b65b" />
+      <Association Name="Service_Personnel" ed:AssociationGuid="6c2e95c6-af45-4855-b119-68afe19dcf91" Member="Personnels" ed:Guid="fe1df2ee-5e5c-4ddf-b9c8-db77befc5edf" ThisKey="Id" OtherKey="IdService" Type="Personnel" />
+    </Type>
+  </Table>
+  <Table Name="bddpersonnels.users" Member="Users">
+    <Type Name="User" ed:Guid="61cd2bbc-376f-4935-9eb2-0be94caf1885">
+      <Column Name="id" Member="Id" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="acb11b95-74b2-4c21-a3e8-284aedbeca25" />
+      <Column Name="login" Member="Login" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="d71a32ad-f382-4d93-9e5a-07271ac1743d" />
+      <Column Name="`password`" Member="Password" Type="System.String" DbType="TEXT NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="a5ce98cb-6a69-47bc-8941-8c47ba2ff70b" />
+    </Type>
+  </Table>
+  <Function Name="bddpersonnels.PersonnelsWithFirstNameAndNameContains" Method="PersonnelsWithFirstNameAndNameContain" ed:Guid="6db0a1dd-9c68-4a07-9f3b-d7c39ff0c823">
+    <Parameter Name="firstnameas" Type="System.String" DbType="TEXT" FixedLength="true" MaxLength="65535" />
+    <Parameter Name="nameas" Type="System.String" DbType="TEXT" FixedLength="true" MaxLength="65535" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="bddpersonnels.PersonnelsWithFirstNameContains" Method="PersonnelsWithFirstNameContain" ed:Guid="83e9670f-0552-4371-bcb0-d1575a493311">
+    <Parameter Name="firstnameas" Type="System.String" DbType="TEXT" FixedLength="true" MaxLength="65535" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="bddpersonnels.PersonnelsWithNameContains" Method="PersonnelsWithNameContain" ed:Guid="ec12006c-7e3c-4d6d-a15a-955e61d3956d">
+    <Parameter Name="nameas" Type="System.String" DbType="TEXT" FixedLength="true" MaxLength="65535" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

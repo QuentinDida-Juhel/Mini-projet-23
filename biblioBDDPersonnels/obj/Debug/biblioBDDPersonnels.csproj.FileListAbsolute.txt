@@ -1,0 +1,11 @@
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\biblioBDDPersonnels.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\biblioBDDPersonnels.pdb
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\Devart.Data.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\Devart.Data.Linq.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\Devart.Data.MySql.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\bin\Debug\Devart.Data.MySql.Linq.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.csproj.CoreCompileInputs.cache
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.csproj.CopyComplete
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.pdb
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.csproj.AssemblyReference.cache

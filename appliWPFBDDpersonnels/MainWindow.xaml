@@ -1,0 +1,18 @@
+﻿<Window x:Class="appliWPFBDDpersonnels.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:appliWPFBDDpersonnels"
+        mc:Ignorable="d"
+        Title="Appli gestion personnels" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="lemonnier-default-share.png"/>
+        </Grid.Background>
+        <DataGrid x:Name="datagridServices" HorizontalAlignment="Left" Height="337" Margin="27,40,0,0" VerticalAlignment="Top" Width="290"/>
+        <Button x:Name="BtAjouter2" Content="Ajouter" HorizontalAlignment="Left" Margin="610,295,0,0" VerticalAlignment="Top" Width="90" Height="47" Click="BtAjouter2_Click"/>
+        <Button x:Name="BtQuitter2" Content="Quitter" HorizontalAlignment="Left" Margin="610,365,0,0" VerticalAlignment="Top" Width="90" Height="39" Click="BtQuitter2_Click"/>
+
+    </Grid>
+</Window>

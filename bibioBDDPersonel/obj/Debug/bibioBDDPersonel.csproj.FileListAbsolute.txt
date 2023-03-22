@@ -1,0 +1,12 @@
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\bibioBDDPersonel.dll.config
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\bibioBDDPersonel.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\bibioBDDPersonel.pdb
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\Devart.Data.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\Devart.Data.Linq.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\Devart.Data.MySql.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\bin\Debug\Devart.Data.MySql.Linq.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\obj\Debug\bibioBDDPersonel.csproj.AssemblyReference.cache
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\obj\Debug\bibioBDDPersonel.csproj.CoreCompileInputs.cache
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\obj\Debug\bibioBDDPersonel.csproj.CopyComplete
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\obj\Debug\bibioBDDPersonel.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\bibioBDDPersonel\obj\Debug\bibioBDDPersonel.pdb
