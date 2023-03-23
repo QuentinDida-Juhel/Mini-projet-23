@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("institut_lemonnier_signature2018_couleurs@2x-1024x782.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("in%20your%20self.png")]
 
 

@@ -27,5 +27,20 @@ namespace bibioBDDPersonnels
                 throw ex;
             }
         }
+        public bool ajouterPersonnel(Personnel p)
+        {
+            try
+            {
+                dc.Personnels.InsertOnSubmit(p);
+                return true;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
+
+        }
     }
 }

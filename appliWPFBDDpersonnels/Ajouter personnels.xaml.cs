@@ -60,7 +60,8 @@ namespace appliWPFBDDpersonnels
 
         private void BAjouter_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Veillez saisir toutes les informations");
+           
         }
     }
 }

@@ -8,7 +8,7 @@
         Title="Ajouter_personnels" Height="450" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="INSTITUT_LEMONNIER_SIGNATURE2018_COULEURS@2x-1024x782.png"/>
+            <ImageBrush ImageSource="in your self.png"/>
         </Grid.Background>
         <TextBox x:Name="TNom" Margin="59,60,613,336" TextWrapping="Wrap"/>
         <Button x:Name="BAjouter" Content="Ajouter" HorizontalAlignment="Left" Margin="611,312,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BAjouter_Click"/>

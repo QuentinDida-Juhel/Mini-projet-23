@@ -116,5 +116,11 @@
   <ItemGroup>
     <Resource Include="INSTITUT_LEMONNIER_SIGNATURE2018_COULEURS%402x-1024x782.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Capture d’écran 2023-03-23 154743.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="in your self.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
