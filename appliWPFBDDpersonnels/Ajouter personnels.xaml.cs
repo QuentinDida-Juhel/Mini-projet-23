@@ -43,25 +43,38 @@ namespace appliWPFBDDpersonnels
 
         private void Comboservice_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
+            this.BAjouter.Visibility = Visibility.Visible;
         }
 
         private void BtSupprimer_Click(object sender, RoutedEventArgs e)
         {
+            
             TNom.Text = "";
             TPrénom.Text = "";
             Comboservice.Items.Clear();
+            MessageBox.Show("Tous les informations ont étaient supprimées");
         }
 
         private void BtModifier_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Les modifications on été prise en compte");
+          
         }
 
         private void BAjouter_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Veillez saisir toutes les informations");
            
+        }
+
+        private void TNom_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            this.BAjouter.Visibility = Visibility.Visible;
+        }
+
+        private void TPrénom_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            this.BAjouter.Visibility = Visibility.Visible;
         }
     }
 }

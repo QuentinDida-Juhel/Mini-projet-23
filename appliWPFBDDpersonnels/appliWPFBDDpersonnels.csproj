@@ -122,5 +122,8 @@
   <ItemGroup>
     <Resource Include="in your self.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="m1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

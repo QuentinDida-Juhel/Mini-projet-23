@@ -10,9 +10,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="in your self.png"/>
         </Grid.Background>
-        <TextBox x:Name="TNom" Margin="59,60,613,336" TextWrapping="Wrap"/>
-        <Button x:Name="BAjouter" Content="Ajouter" HorizontalAlignment="Left" Margin="611,312,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BAjouter_Click"/>
-        <TextBox x:Name="TPrénom" HorizontalAlignment="Left" Height="23" Margin="59,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TNom" Margin="59,60,613,336" TextWrapping="Wrap" TextChanged="TNom_TextChanged"/>
+        <Button x:Name="BAjouter" Content="Ajouter" HorizontalAlignment="Left" Margin="611,312,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BAjouter_Click" Visibility="Hidden"/>
+        <TextBox x:Name="TPrénom" HorizontalAlignment="Left" Height="23" Margin="59,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TPrénom_TextChanged"/>
         <Label x:Name="LbNom" Content="Nom :" HorizontalAlignment="Left" Margin="9,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.453,1.938"/>
         <Label x:Name="LbPrénom" Content="Prénom :" HorizontalAlignment="Left" Margin="3,130,0,0" VerticalAlignment="Top"/>
         <Label x:Name="LbPhoto" Content="Photo :" HorizontalAlignment="Left" Margin="3,222,0,0" VerticalAlignment="Top"/>
@@ -21,7 +21,7 @@
         <ComboBox x:Name="Comboservice" HorizontalAlignment="Left" Margin="303,64,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Comboservice_SelectionChanged"/>
         <Button x:Name="BtModifier" Content="Modifier" HorizontalAlignment="Left" Margin="611,258,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BtModifier_Click"/>
         <Button x:Name="BtSupprimer" Content="Supprimer" HorizontalAlignment="Left" Margin="611,207,0,0" VerticalAlignment="Top" Width="104" Height="29" Click="BtSupprimer_Click"/>
-        <Image x:Name="PPhotopersonnels" HorizontalAlignment="Left" Height="100" Margin="51,222,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="PPhotopersonnels" HorizontalAlignment="Left" Height="109" Margin="51,222,0,0" VerticalAlignment="Top" Width="128" Source="m1.png"/>
 
     </Grid>
 </Window>
