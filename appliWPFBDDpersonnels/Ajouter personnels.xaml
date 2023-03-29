@@ -19,7 +19,7 @@
         <Label x:Name="LbService" Content="Service :" HorizontalAlignment="Left" Margin="250,60,0,0" VerticalAlignment="Top"/>
         <Button x:Name="BQuitter" Content="Quitter" HorizontalAlignment="Left" Margin="611,361,0,0" VerticalAlignment="Top" Width="104" Height="29" Click="BQuitter_Click"/>
         <ComboBox x:Name="Comboservice" HorizontalAlignment="Left" Margin="303,64,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Comboservice_SelectionChanged"/>
-        <Button x:Name="BtModifier" Content="Modifier" HorizontalAlignment="Left" Margin="611,258,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BtModifier_Click"/>
+        <Button x:Name="BtModifier" Content="Modifier" HorizontalAlignment="Left" Margin="611,258,0,0" VerticalAlignment="Top" Width="104" Height="32" Click="BtModifier_Click" Visibility="Hidden"/>
         <Button x:Name="BtSupprimer" Content="Supprimer" HorizontalAlignment="Left" Margin="611,207,0,0" VerticalAlignment="Top" Width="104" Height="29" Click="BtSupprimer_Click"/>
         <Image x:Name="PPhotopersonnels" HorizontalAlignment="Left" Height="109" Margin="51,222,0,0" VerticalAlignment="Top" Width="128" Source="m1.png"/>
 

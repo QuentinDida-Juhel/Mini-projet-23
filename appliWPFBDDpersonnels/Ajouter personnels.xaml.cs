@@ -44,6 +44,7 @@ namespace appliWPFBDDpersonnels
         private void Comboservice_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             this.BAjouter.Visibility = Visibility.Visible;
+            this.BtModifier.Visibility = Visibility.Visible;
         }
 
         private void BtSupprimer_Click(object sender, RoutedEventArgs e)
@@ -70,11 +71,13 @@ namespace appliWPFBDDpersonnels
         private void TNom_TextChanged(object sender, TextChangedEventArgs e)
         {
             this.BAjouter.Visibility = Visibility.Visible;
+            this.BtModifier.Visibility = Visibility.Visible;
         }
 
         private void TPrénom_TextChanged(object sender, TextChangedEventArgs e)
         {
             this.BAjouter.Visibility = Visibility.Visible;
+            this.BtModifier.Visibility = Visibility.Visible;
         }
     }
 }
