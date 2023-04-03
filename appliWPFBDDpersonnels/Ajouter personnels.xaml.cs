@@ -12,28 +12,31 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using BddpersonnelContext;
+using bibioBDDPersonnels;
 
 namespace appliWPFBDDpersonnels
 {
     /// <summary>
     /// Logique d'interaction pour Ajouter_personnels.xaml
     /// </summary>
+    
     public partial class Ajouter_personnels : Window
     {
         private List<Service> ListeS;
+        private CBDDpersonnels bddpersonnels = null;
         public Ajouter_personnels()
         {
             InitializeComponent();
             ListeS = new List<Service>();
-            Comboservice.Items.Add("Vie scolaire");
-            Comboservice.Items.Add("Prof de maths");
-            Comboservice.Items.Add("Informatique");
-            Comboservice.Items.Add("Agricole");
-            Comboservice.Items.Add("Bois");
-            Comboservice.Items.Add("Automobile");
-            Comboservice.Items.Add("Service 911");
-            Comboservice.Items.Add("Administration");
+  
+            bddpersonnels = new CBDDpersonnels();
+            List<Personnel> personnels = bddpersonnels.getAllPersonnels();
 
+            DTGpersonnels.ItemsSource = personnels;
+
+            ListeS = bddpersonnels.getAllServices();
+            foreach (Service s in ListeS)
+                Comboservice.Items.Add(s.Intitule);
         }
 
         private void BQuitter_Click(object sender, RoutedEventArgs e)
@@ -78,6 +81,17 @@ namespace appliWPFBDDpersonnels
         {
             this.BAjouter.Visibility = Visibility.Visible;
             this.BtModifier.Visibility = Visibility.Visible;
+        }
+
+        private void DTGpersonnels_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (sender is DataGrid)
+            {
+                TNom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Nom;
+                TPrénom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Prenom;
+                
+                
+            }
         }
     }
 }

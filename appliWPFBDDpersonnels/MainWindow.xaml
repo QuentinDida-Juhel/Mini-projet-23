@@ -7,12 +7,17 @@
         mc:Ignorable="d"
         Title="Appli gestion personnels" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175*"/>
+            <ColumnDefinition Width="193*"/>
+            <ColumnDefinition Width="424*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="institut-lemonnier.png"/>
         </Grid.Background>
-        <DataGrid x:Name="datagridServices" HorizontalAlignment="Left" Height="337" Margin="27,40,0,0" VerticalAlignment="Top" Width="290"/>
-        <Button x:Name="BtAjouter2" Content="Ajouter" HorizontalAlignment="Left" Margin="610,295,0,0" VerticalAlignment="Top" Width="90" Height="47" Click="BtAjouter2_Click"/>
-        <Button x:Name="BtQuitter2" Content="Quitter" HorizontalAlignment="Left" Margin="610,365,0,0" VerticalAlignment="Top" Width="90" Height="39" Click="BtQuitter2_Click"/>
+        <DataGrid x:Name="datagridServices" Margin="27,40,51,42" SelectionChanged="datagridServices_SelectionChanged" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtAjouter2" Content="Ajouter" Margin="112,286,222,0" Click="BtAjouter2_Click" Grid.Column="2" Height="47" VerticalAlignment="Top"/>
+        <Button x:Name="BtQuitter2" Content="Quitter" Margin="112,352,222,0" Click="BtQuitter2_Click" Grid.Column="2" Height="39" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

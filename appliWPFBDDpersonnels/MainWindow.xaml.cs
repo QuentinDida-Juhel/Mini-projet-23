@@ -41,5 +41,10 @@ namespace appliWPFBDDpersonnels
         {
             this.Close();
         }
+
+        private void datagridServices_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

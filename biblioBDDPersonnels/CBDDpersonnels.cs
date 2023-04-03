@@ -27,6 +27,19 @@ namespace bibioBDDPersonnels
                 throw ex;
             }
         }
+
+        public List<Personnel> getAllPersonnels()
+        {
+            try
+            {
+                return dc.Personnels.ToList();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public bool ajouterPersonnel(Personnel p)
         {
             try
