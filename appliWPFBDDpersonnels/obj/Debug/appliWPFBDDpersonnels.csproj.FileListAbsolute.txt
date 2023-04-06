@@ -1,15 +1,19 @@
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\appliWPFBDDpersonnels.exe.config
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\appliWPFBDDpersonnels.exe
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\appliWPFBDDpersonnels.pdb
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\biblioBDDPersonnels.dll
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\Devart.Data.Linq.dll
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\Devart.Data.MySql.Linq.dll
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\Devart.Data.dll
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\Devart.Data.MySql.dll
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\biblioBDDPersonnels.pdb
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.csproj.AssemblyReference.cache
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\Ajouter personnels.g.cs
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\MainWindow.g.cs
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\App.g.cs
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels_MarkupCompile.cache
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels_MarkupCompile.lref
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\Ajouter personnels.baml
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\MainWindow.baml
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.g.resources
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.Properties.Resources.resources
@@ -18,7 +22,3 @@ C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDD
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.csproj.CopyComplete
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.exe
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\appliWPFBDDpersonnels.pdb
-C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\biblioBDDPersonnels.dll
-C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\bin\Debug\biblioBDDPersonnels.pdb
-C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\Ajouter personnels.g.cs
-C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\appliWPFBDDpersonnels\obj\Debug\Ajouter personnels.baml

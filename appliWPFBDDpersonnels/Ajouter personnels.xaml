@@ -12,7 +12,7 @@
             <ColumnDefinition Width="85*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="in your self.png"/>
+            <ImageBrush ImageSource="institut-lemonnier.png"/>
         </Grid.Background>
         <TextBox x:Name="TNom" Margin="106,10,29,0" TextWrapping="Wrap" TextChanged="TNom_TextChanged" Grid.Column="1" Height="26" VerticalAlignment="Top"/>
         <Button x:Name="BAjouter" Content="Ajouter" Margin="122,310,29,0" VerticalAlignment="Top" Height="32" Click="BAjouter_Click" Grid.Column="1" Visibility="Hidden"/>

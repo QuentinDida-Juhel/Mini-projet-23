@@ -13,7 +13,7 @@
             <ColumnDefinition Width="424*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="institut-lemonnier.png"/>
+            <ImageBrush ImageSource="in your self.png"/>
         </Grid.Background>
         <DataGrid x:Name="datagridServices" Margin="27,40,51,42" SelectionChanged="datagridServices_SelectionChanged" Grid.ColumnSpan="2"/>
         <Button x:Name="BtAjouter2" Content="Ajouter" Margin="112,286,222,0" Click="BtAjouter2_Click" Grid.Column="2" Height="47" VerticalAlignment="Top"/>

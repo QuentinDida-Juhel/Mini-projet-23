@@ -89,6 +89,7 @@ namespace appliWPFBDDpersonnels
             {
                 TNom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Nom;
                 TPrénom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Prenom;
+                IMGpersonnels.Source = ((Personnel)(sender as DataGrid).SelectedItem).Photo;
                 
                 
             }
