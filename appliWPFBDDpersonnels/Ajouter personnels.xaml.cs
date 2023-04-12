@@ -14,12 +14,13 @@ using System.Windows.Shapes;
 using BddpersonnelContext;
 using bibioBDDPersonnels;
 
+
 namespace appliWPFBDDpersonnels
 {
     /// <summary>
     /// Logique d'interaction pour Ajouter_personnels.xaml
     /// </summary>
-    
+  
     public partial class Ajouter_personnels : Window
     {
         private List<Service> ListeS;
@@ -27,6 +28,7 @@ namespace appliWPFBDDpersonnels
         public Ajouter_personnels()
         {
             InitializeComponent();
+           
             ListeS = new List<Service>();
   
             bddpersonnels = new CBDDpersonnels();
@@ -68,6 +70,7 @@ namespace appliWPFBDDpersonnels
         private void BAjouter_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Veillez saisir toutes les informations");
+            
            
         }
 
@@ -89,7 +92,7 @@ namespace appliWPFBDDpersonnels
             {
                 TNom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Nom;
                 TPrénom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Prenom;
-                IMGpersonnels.Source = ((Personnel)(sender as DataGrid).SelectedItem).Photo;
+                IMGpersonnels.Source = CBDDpersonnels.LoadImage( ((Personnel)(sender as DataGrid).SelectedItem).Photo);
                 
                 
             }

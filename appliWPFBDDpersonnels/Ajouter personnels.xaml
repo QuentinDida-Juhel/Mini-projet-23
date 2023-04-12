@@ -26,7 +26,7 @@
         <Button x:Name="BtSupprimer" Content="Supprimer" Margin="122,204,29,0" Click="BtSupprimer_Click" Grid.Column="1" Height="29" VerticalAlignment="Top"/>
         <Label x:Name="Labelpersonnels" Content="Personnels :" HorizontalAlignment="Left" Margin="252,10,0,0" VerticalAlignment="Top" Height="26" Width="73"/>
         <DataGrid x:Name="DTGpersonnels" Margin="34,10,24,29" SelectionChanged="DTGpersonnels_SelectionChanged"/>
-        <Image x:Name="IMGpersonnels" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="10,204,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="IMGpersonnels" Grid.Column="1" Height="138" Margin="5,204,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="112"/>
 
     </Grid>
 </Window>

@@ -8,3 +8,4 @@ C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPe
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.csproj.CopyComplete
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.dll
 C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.pdb
+C:\Users\quent\Documents\BTS SNIR\miniProjet2023\solutionBDDPersonel\biblioBDDPersonnels\obj\Debug\biblioBDDPersonnels.csproj.AssemblyReference.cache
