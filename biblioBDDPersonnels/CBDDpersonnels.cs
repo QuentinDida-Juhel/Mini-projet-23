@@ -13,6 +13,7 @@ using System.Security.Policy;
 using System.Data.Common;
 using System.Windows.Media.Imaging;
 
+
 namespace bibioBDDPersonnels
 {
     public class CBDDpersonnels
@@ -29,9 +30,9 @@ namespace bibioBDDPersonnels
         {
             try
             {
-               return dc.Services.ToList();
+                return dc.Services.ToList();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -43,12 +44,13 @@ namespace bibioBDDPersonnels
             {
                 return dc.Personnels.ToList();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
         }
 
+        
         public bool ajouterPersonnel(Personnel p)
         {
             try

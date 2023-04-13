@@ -33,7 +33,8 @@ namespace appliWPFBDDpersonnels
   
             bddpersonnels = new CBDDpersonnels();
             List<Personnel> personnels = bddpersonnels.getAllPersonnels();
-
+            List<Service> services = bddpersonnels.getAllServices();
+            
             DTGpersonnels.ItemsSource = personnels;
 
             ListeS = bddpersonnels.getAllServices();
@@ -93,17 +94,19 @@ namespace appliWPFBDDpersonnels
                 TNom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Nom;
                 TPrénom.Text = ((Personnel)(sender as DataGrid).SelectedItem).Prenom;
                 IMGpersonnels.Source = CBDDpersonnels.LoadImage( ((Personnel)(sender as DataGrid).SelectedItem).Photo);
+                Comboservice.Text = ((Personnel)(sender as DataGrid).SelectedItem).Service;
+                
 
                 //exemple a modifier si exact
-              //  private void createGraphicsColumn()
-             //   {
+                //  private void createGraphicsColumn()
+                //   {
                 //    Icon treeIcon = new Icon(this.GetType(), "tree.ico");
-                 //   DataGridViewImageColumn iconColumn = new DataGridViewImageColumn();
-                 //   iconColumn.Image = treeIcon.ToBitmap();
-                 //   iconColumn.Name = "Tree";
-                   // iconColumn.HeaderText = "Nice tree";
-                  //  dataGridView1.Columns.Insert(2, iconColumn);
-              //  }
+                //   DataGridViewImageColumn iconColumn = new DataGridViewImageColumn();
+                //   iconColumn.Image = treeIcon.ToBitmap();
+                //   iconColumn.Name = "Tree";
+                // iconColumn.HeaderText = "Nice tree";
+                //  dataGridView1.Columns.Insert(2, iconColumn);
+                //  }
             }
         }
     }
